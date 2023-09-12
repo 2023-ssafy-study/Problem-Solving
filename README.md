@@ -14,5 +14,5 @@
 |주차|문제|
 |:--:|--|
 |09.07 ~ 09.11 (구현 문제) |[SWEA - [모의 SW 역량 테스트] 2112 보호 필름 (?)](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) <br> [백준 - 14890 경사로 (Gold 3)](https://www.acmicpc.net/problem/14890) <br> [백준 - 20058 마법사 상어와 파이어스톰  (Gold3)](https://www.acmicpc.net/problem/20058)|
-|09.12 ~ 09.18|[플랫폼 - 문제명 (난이도)](링크) <br> [플랫폼 - 문제명 (난이도)](링크) <br> [플랫폼 - 문제명 (난이도)](링크) <br> [플랫폼 - 문제명 (난이도)](링크) <br> [플랫폼 - 문제명 (난이도)](링크)|
+|09.12 ~ 09.18|[백준 - 2042 구간 합 구하기 (Gold 1)](https://www.acmicpc.net/problem/2042) <br> [코드트리 - 메이즈러너 (Gold 3)](https://www.codetree.ai/training-field/frequent-problems/problems/maze-runner/description?page=3&pageSize=20)|
 |09.19 ~ 09.25|[플랫폼 - 문제명 (난이도)](링크) <br> [플랫폼 - 문제명 (난이도)](링크) <br> [플랫폼 - 문제명 (난이도)](링크) <br> [플랫폼 - 문제명 (난이도)](링크) <br> [플랫폼 - 문제명 (난이도)](링크)|
