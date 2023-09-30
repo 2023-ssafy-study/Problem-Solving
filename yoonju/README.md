@@ -9,3 +9,4 @@
 |[15685. 드래곤 커브](https://www.acmicpc.net/problem/15685)|`백준`|[풀이 보러 가기](./15685.%20드래곤%20커브.py)|✅|
 |[11052. 카드 구매하기](https://www.acmicpc.net/problem/11052)|`백준`|[풀이 보러 가기](./11052.%20카드%20구매하기.py)|✅|
 |[1005. ACM Craft](https://www.acmicpc.net/problem/1005)|`백준`|[풀이 보러 가기](./1005.%20ACM%20Craft.py)|✅|
+|[9251. LCS](https://www.acmicpc.net/problem/9251)|`백준`|[풀이 보러 가기](./9251.%20LCS.py)|✅|
