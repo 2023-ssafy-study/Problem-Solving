@@ -6,9 +6,7 @@ using namespace std;
 int n;
 int arr[10001] = { 0, };
 // 점화식 DP[N] = DP[N] vs (DP[N-a] + Arr[a])
-int DP[10001] = { 0, };
-
-int Bigger(int A, int B) { if (A > B) return A; return B; }
+int DP[1001] = { 0, };
 
 int main(void)
 {
