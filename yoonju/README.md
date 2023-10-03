@@ -10,3 +10,5 @@
 |[11052. 카드 구매하기](https://www.acmicpc.net/problem/11052)|`백준`|[풀이 보러 가기](./11052.%20카드%20구매하기.py)|✅|
 |[1005. ACM Craft](https://www.acmicpc.net/problem/1005)|`백준`|[풀이 보러 가기](./1005.%20ACM%20Craft.py)|✅|
 |[9251. LCS](https://www.acmicpc.net/problem/9251)|`백준`|[풀이 보러 가기](./9251.%20LCS.py)|✅|
+|[1106. 호텔](https://www.acmicpc.net/problem/1106)|`백준`|[풀이 보러 가기](./1106.%20호텔.py)|✅|
+|[1520. 내리막 길](https://www.acmicpc.net/problem/1520)|`백준`|[풀이 보러 가기](./1520.%20내리막%20길.py)|✅|
