@@ -17,4 +17,4 @@
 |09.12 ~ 09.18<br>(세그먼트 트리 문제) |[백준 - 2042 구간 합 구하기 (Gold 1)](https://www.acmicpc.net/problem/2042) <br> [코드트리 - 메이즈러너 (Gold 3)](https://www.codetree.ai/training-field/frequent-problems/problems/maze-runner/description?page=3&pageSize=20)|
 |09.19 ~ 09.25<br>(구현 문제) |[백준 - 15685 드래곤 커브 (Gold 3)](https://www.acmicpc.net/problem/15685) <br> [백준 - 20207 달력 (Gold 5)](https://www.acmicpc.net/problem/20207)|
 |09.27 ~ 10.03<br>(DP 문제) |[백준 - 11052 카드 구매하기 (Silver 1)](https://www.acmicpc.net/problem/11052) <br> [백준 - 1005 ACM Craft (Gold 3)](https://www.acmicpc.net/problem/1005) <br> [백준 - 1106 호텔 (Gold 5)](https://www.acmicpc.net/problem/1106) <br> [백준 - 9251 LCS (Gold 5)](https://www.acmicpc.net/problem/9251) <br> [백준 - 1520 내리막 길 (Gold 3)](https://www.acmicpc.net/problem/1520)|
-|10.03 ~ 10.10 <br> (백트래킹 문제)|[플랫폼 - 문제번호 문제명 (난이도)]() <br>[플랫폼 - 문제번호 문제명 (난이도)]() <br>[플랫폼 - 문제번호 문제명 (난이도)]() <br>[플랫폼 - 문제번호 문제명 (난이도)]() <br>[플랫폼 - 문제번호 문제명 (난이도)]()|
+|10.03 ~ 10.10 <br> (백트래킹 문제)|[플랫폼 - 문제번호 문제명 (난이도)]() <br>[백준 - 1759 암호 만들기 (Gold 5)](https://www.acmicpc.net/problem/1759) <br>[플랫폼 - 문제번호 문제명 (난이도)]() <br>[플랫폼 - 문제번호 문제명 (난이도)]() <br>[플랫폼 - 문제번호 문제명 (난이도)]()|
