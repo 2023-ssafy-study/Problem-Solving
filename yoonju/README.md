@@ -12,4 +12,6 @@
 |[9251. LCS](https://www.acmicpc.net/problem/9251)|`백준`|`Gold5`|[풀이 보러 가기](./BOJ/Gold/Gold-5/9251.%20LCS.py)|✅|
 |[1106. 호텔](https://www.acmicpc.net/problem/1106)|`백준`|`Gold5`|[풀이 보러 가기](./BOJ/Gold/Gold-5/1106.%20호텔.py)|✅|
 |[1520. 내리막 길](https://www.acmicpc.net/problem/1520)|`백준`|`Gold3`|[풀이 보러 가기](./BOJ/Gold/Gold-3/1520.%20내리막%20길.py)|✅|
-|[1189.컴백홈](https://www.acmicpc.net/problem/1189)|`백준`|`Silver1`|[풀이 보러 가기](./BOJ/Silver/Silver-1/1189.%20컴백홈.py)|✅|
+|[1189. 컴백홈](https://www.acmicpc.net/problem/1189)|`백준`|`Silver1`|[풀이 보러 가기](./BOJ/Silver/Silver-1/1189.%20컴백홈.py)|✅|
+|[1759. 암호 만들기](https://www.acmicpc.net/problem/1759)|`백준`|`Gold5`|[풀이 보러 가기](./BOJ/Gold/Gold-5/1759.%20암호%20만들기.py)|✅|
+|[1339. 단어 수학](https://www.acmicpc.net/problem/1339)|`백준`|`Gold4`|[풀이 보러 가기](./BOJ/Gold/Gold-4/1339.%20단어%20수학.py)|✅|
