@@ -15,3 +15,7 @@
 |[1189. 컴백홈](https://www.acmicpc.net/problem/1189)|`백준`|`Silver1`|[풀이 보러 가기](./BOJ/Silver/Silver-1/1189.%20컴백홈.py)|✅|
 |[1759. 암호 만들기](https://www.acmicpc.net/problem/1759)|`백준`|`Gold5`|[풀이 보러 가기](./BOJ/Gold/Gold-5/1759.%20암호%20만들기.py)|✅|
 |[1339. 단어 수학](https://www.acmicpc.net/problem/1339)|`백준`|`Gold4`|[풀이 보러 가기](./BOJ/Gold/Gold-4/1339.%20단어%20수학.py)|✅|
+|[2493. 탑](https://www.acmicpc.net/problem/2493)|`백준`|`Gold5`|[풀이 보러 가기](./BOJ/Gold/Gold-5/2493.%20탑.py)|✅|
+|[2504. 괄호의 값](https://www.acmicpc.net/problem/2504)|`백준`|`Gold5`|[풀이 보러 가기](./BOJ/Gold/Gold-5/2504.%20괄호의%20값.py)|✅|
+|[10799. 쇠막대기](https://www.acmicpc.net/problem/10799)|`백준`|`Silver2`|[풀이 보러 가기](./BOJ/Silver/Silver-2/10799.%20쇠막대기.py)|✅|
+|[17299. 오등큰수](https://www.acmicpc.net/problem/17299)|`백준`|`Gold3`|[풀이 보러 가기](./BOJ/Gold/Gold-3/17299.%20오등큰수.py)|✅|
