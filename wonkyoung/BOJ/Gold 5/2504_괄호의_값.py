@@ -1,4 +1,5 @@
 #231012
+# 31120 KB / 40 ms
 def calc_bracket_value():
     bracket_string = input()
     length = len(bracket_string)
