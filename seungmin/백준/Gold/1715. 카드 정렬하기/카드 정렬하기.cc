@@ -8,8 +8,9 @@ using namespace std;
 priority_queue<int, vector<int>, greater<int> > pq;
 int N;
 
-int main(void)
+int main()
 {
+    ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
     int sum = 0;
 
     cin >> N;
@@ -22,8 +23,10 @@ int main(void)
     while(pq.size() > 1) {
         int n1, n2;
 
-        n1 = pq.top(), pq.pop();
-        n2 = pq.top(), pq.pop();
+        n1 = pq.top();
+        pq.pop();
+        n2 = pq.top();
+        pq.pop();
         sum += (n1 + n2);
         pq.push(n1 + n2);
     }
