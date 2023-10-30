@@ -25,3 +25,5 @@
 |                [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627)                | `프로그래머스` | `Level3`  |        [풀이 보러 가기](./Programmers/Level%203/디스크%20컨트롤러.js)        |    ✅     |
 |                             [11279. 최대 힙](https://www.acmicpc.net/problem/11279)                              |     `백준`     | `Silver2` |        [풀이 보러 가기](./BOJ/Silver/Silver-2/11279.%20최대%20힙.js)         |    ✅     |
 |                           [11000. 강의실 배정](https://www.acmicpc.net/problem/11000)                            |     `백준`     |  `Gold5`  |        [풀이 보러 가기](./BOJ/Gold/Gold-5/11000.%20강의실%20배정.js)         |    ✅     |
+|                   [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238)                    | `프로그래머스` | `Level3`  |            [풀이 보러 가기](./Programmers/Level%203/입국심사.js)             |    ✅     |
+|                 [징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236#qna)                  | `프로그래머스` | `Level4`  |            [풀이 보러 가기](./Programmers/Level%204/징검다리.js)             |    ✅     |
