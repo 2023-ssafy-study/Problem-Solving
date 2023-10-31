@@ -27,3 +27,5 @@
 |                           [11000. 강의실 배정](https://www.acmicpc.net/problem/11000)                            |     `백준`     |  `Gold5`  |        [풀이 보러 가기](./BOJ/Gold/Gold-5/11000.%20강의실%20배정.js)         |    ✅     |
 |                   [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238)                    | `프로그래머스` | `Level3`  |            [풀이 보러 가기](./Programmers/Level%203/입국심사.js)             |    ✅     |
 |                 [징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236#qna)                  | `프로그래머스` | `Level4`  |            [풀이 보러 가기](./Programmers/Level%204/징검다리.js)             |    ✅     |
+|                              [2470. 두 용액](https://www.acmicpc.net/problem/2470)                               |     `백준`     |  `Gold5`  |           [풀이 보러 가기](./BOJ/Gold/Gold-5/2470.%20두%20용액.py)           |    ✅     |
+|                            [2143. 두 배열의 합](https://www.acmicpc.net/problem/2143)                            |     `백준`     |  `Gold3`  |       [풀이 보러 가기](./BOJ/Gold/Gold-3/2143.%20두%20배열의%20합.py)        |    ✅     |
