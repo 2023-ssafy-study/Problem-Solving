@@ -174,6 +174,6 @@ def return_cousin():
 
 while True:
     answer = return_cousin()
-    if answer == -1:촌
+    if answer == -1:
         break
     print(answer)
