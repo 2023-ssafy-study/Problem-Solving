@@ -29,3 +29,9 @@
 |                 [징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236#qna)                  | `프로그래머스` | `Level4`  |            [풀이 보러 가기](./Programmers/Level%204/징검다리.js)             |    ✅     |
 |                              [2470. 두 용액](https://www.acmicpc.net/problem/2470)                               |     `백준`     |  `Gold5`  |           [풀이 보러 가기](./BOJ/Gold/Gold-5/2470.%20두%20용액.py)           |    ✅     |
 |                            [2143. 두 배열의 합](https://www.acmicpc.net/problem/2143)                            |     `백준`     |  `Gold3`  |       [풀이 보러 가기](./BOJ/Gold/Gold-3/2143.%20두%20배열의%20합.py)        |    ✅     |
+|                               [11437. LCA](https://www.acmicpc.net/problem/11437)                                |     `백준`     |  `Gold3`  |             [풀이 보러 가기](./BOJ/Gold/Gold-3/11437.%20LCA.py)              |    ✅     |
+|                         [2533. 사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533)                         |     `백준`     |  `Gold3`  |        [풀이 보러 가기](./BOJ/Gold/Gold-3/2533.%20사회망%20서비스.py)        |    ✅     |
+|                                [9489. 사촌](https://www.acmicpc.net/problem/9489)                                |     `백준`     |  `Gold4`  |             [풀이 보러 가기](./BOJ/Gold/Gold-4/9489.%20사촌.py)              |    ✅     |
+|                             [19535. ㄷㄷㄷㅈ](https://www.acmicpc.net/problem/19535)                             |     `백준`     |  `Gold3`  |           [풀이 보러 가기](./BOJ/Gold/Gold-3/19535.%20ㄷㄷㄷㅈ.py)           |    ✅     |
+|                         [2847. 게임을 만든 동준이](https://www.acmicpc.net/problem/2847)                         |     `백준`     | `Silver4` |  [풀이 보러 가기](./BOJ/Silver/Silver-4/2847.%20게임을%20만든%20동준이.js)   |    ✅     |
+|                  [단속카메라](https://school.programmers.co.kr/learn/courses/30/lessons/42884)                   | `프로그래머스` | `Level3`  |           [풀이 보러 가기](./Programmers/Level%203/단속카메라.js)            |    ✅     |
