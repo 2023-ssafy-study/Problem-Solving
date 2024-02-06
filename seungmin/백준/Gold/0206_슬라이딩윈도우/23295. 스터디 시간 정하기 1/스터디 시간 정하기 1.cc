@@ -1,58 +1,53 @@
 #include <iostream>
-#include <vector>
-#include <string>
 #include <algorithm>
-#define MAX 100001
-#define LL long long
-#define FASTIO cin.tie(0); cout.tie(0); ios::sync_with_stdio(false);
 
 using namespace std;
-int N, T, K, S, E;
-int DP[MAX];
-int Sum[MAX];
-int Maximum;
-pair<int, int> Answer;
+using ll = long long;
+
+ll arr[200000];
+ll cnt[200000];
+ll sum[200000];
+int n, m;
+ll t, s, e, maxtime;
 
 void input() {
-    cin >> N >> T;
-    for (int i = 0; i < N; i++) {
-        cin >> K;
-        while (K--) {
-            cin >> S >> E;
-            S++;
-            DP[S]++;
-            DP[E + 1]--;
-        };
-    }
-}
-
-void settings() {
-    for (int i = 1; i < MAX; i++) {
-        Sum[i] = Sum[i - 1] + DP[i];
-    }
-    for (int i = 1; i <= T; i++) {
-        Maximum += Sum[i];
-    }
-    Answer = make_pair(0, T);
-    int Now = Maximum;
-    for (int i = (T + 1); i < MAX; i++) {
-        Now += (Sum[i] - Sum[i - T]);
-        if (Maximum < Now) {
-            Maximum = Now;
-            Answer = make_pair(i - T, i);
+    cin >> n >> m;
+    for (int i = 0; i < n; i ++) {
+        cin >> t;
+        while(t--) {
+            cin >> s >> e;
+            arr[s] ++;
+            arr[e] --;
+            maxtime = max(maxtime, e);
         }
     }
+    cnt[0] = arr[0];
+    sum[0] = cnt[0];
+    for(int i = 1; i < maxtime; i ++) {
+        cnt[i] = cnt[i - 1] + arr[i];
+        sum[i] = sum[i - 1] + cnt[i];
+    }
 }
 
-void find_Answer() {
-    cout << Answer.first << " " << Answer.second << "\n";
+void Solve() {
+    ll maxcnt = 0;
+    ll ans = 0;
+    for(ll i = 0; i <= maxtime; i ++) {
+        ll temp;
+        if (i == 0) temp = sum[i + m] - cnt[i + m];
+        else temp = sum[i + m] - sum[i - 1] - cnt[i + m];
+        if (temp > maxcnt) {
+            maxcnt = temp;
+            ans = i;
+        }
+    }
+    cout << ans << " " << ans + m;
 }
 
 int main() {
-    FASTIO
+    ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
     input();
-    settings();
-    find_Answer();
-
+    Solve();
+    
     return 0;
 }
