@@ -1,6 +1,6 @@
 # 240528
 def solution(board):
-    # 0 비어 있음, 1 벽
+
     from collections import deque
 
     def push_to_q(y, x, idx, cost):
@@ -186,4 +186,68 @@ def solution(board):
 테스트 23 〉	통과 (0.19ms, 10.3MB)
 테스트 24 〉	통과 (0.13ms, 10.3MB)
 테스트 25 〉	통과 (0.08ms, 10.4MB)
+'''
+
+#
+# q에 값 넣기
+def push_to_q(y, x, idx, cost, board, visited, dy, dx, n, q):
+    for i in range(4):
+        ny, nx = y + dy[i], x + dx[i]
+        if 0 <= ny < n and 0 <= nx < n and board[ny][nx] == 0:
+            new_cost = cost + 1 if idx == i or idx == -1 else cost + 6
+            if visited[ny][nx][i] > new_cost:
+                q.append((ny, nx, i, new_cost))
+                visited[ny][nx][i] = new_cost
+
+
+def solution(board):
+    from collections import deque
+
+    # 변수 선언
+    min_cost, n = 3750, len(board)
+    dy, dx = [0, 0, 1, -1], [-1, 1, 0, 0]
+    visited = [[[min_cost] * 4 for _ in range(n)] for _ in range(n)]
+    q = deque()
+
+    # 초기화 & bfs
+    push_to_q(0, 0, -1, 0, board, visited, dy, dx, n, q)
+    visited[0][0] = [0] * 4
+
+    while q:
+        y, x, i, cost = q.popleft()
+        if y == n - 1 and x == n - 1:
+            continue
+
+        push_to_q(y, x, i, cost, board, visited, dy, dx, n, q)
+
+    return min(*visited[-1][-1]) * 100
+
+
+'''
+정확성  테스트
+테스트 1 〉	통과 (0.04ms, 10.1MB)
+테스트 2 〉	통과 (0.03ms, 10.3MB)
+테스트 3 〉	통과 (0.03ms, 10.1MB)
+테스트 4 〉	통과 (0.06ms, 10.3MB)
+테스트 5 〉	통과 (0.10ms, 10.3MB)
+테스트 6 〉	통과 (1.55ms, 10.2MB)
+테스트 7 〉	통과 (1.51ms, 10.1MB)
+테스트 8 〉	통과 (1.65ms, 10.3MB)
+테스트 9 〉	통과 (0.78ms, 10.1MB)
+테스트 10 〉	통과 (1.74ms, 10.3MB)
+테스트 11 〉	통과 (28.00ms, 10MB)
+테스트 12 〉	통과 (5.42ms, 10.1MB)
+테스트 13 〉	통과 (0.41ms, 10.3MB)
+테스트 14 〉	통과 (0.53ms, 10.2MB)
+테스트 15 〉	통과 (2.27ms, 10.3MB)
+테스트 16 〉	통과 (3.96ms, 10.3MB)
+테스트 17 〉	통과 (12.88ms, 10.1MB)
+테스트 18 〉	통과 (14.79ms, 10.2MB)
+테스트 19 〉	통과 (21.49ms, 10.1MB)
+테스트 20 〉	통과 (2.09ms, 10.1MB)
+테스트 21 〉	통과 (1.56ms, 10.2MB)
+테스트 22 〉	통과 (0.13ms, 10.4MB)
+테스트 23 〉	통과 (0.12ms, 10.3MB)
+테스트 24 〉	통과 (0.13ms, 10.3MB)
+테스트 25 〉	통과 (0.07ms, 10.2MB)
 '''
