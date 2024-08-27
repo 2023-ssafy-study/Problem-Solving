@@ -1,4 +1,5 @@
 # 240827
+# 35556 KB / 224 ms
 def main():
     from collections import deque
     
